@@ -55,6 +55,7 @@ You can [create a site](https://app.stackbit.com/create?theme=https://github.com
 
         ***REMOVED***
 
+
 1. Start the Gatsby local development server:
 
         npm run develop
