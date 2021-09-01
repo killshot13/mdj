@@ -7,7 +7,9 @@
 	"scripts": {
 		"develop": "gatsby develop",
 		"start": "yarn run develop",
-		"build": "cross-env GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --prefix-paths --log-pages",
+		"build": "echo 'started build' && yarn run stackbit && yarn install && yarn run compile && echo 'finished build' && yarn run serve",
+		"stackbit": "***REMOVED***",
+		"compile": "cross-env GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --prefix-paths --log-pages",
 		"serve": "gatsby serve"
 	},
 	"dependencies": {
