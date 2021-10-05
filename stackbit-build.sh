@@ -1,15 +1,13 @@
-***REMOVED***
+#!/usr/bin/env bash
+set -e
+set -o pipefail
+set -v
+echo "stackbit-build.sh: start build"
 
-***REMOVED***
-***REMOVED***
-***REMOVED***
+# fetch data from CMS through stackbit-pull
+npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://api.stackbit.com/pull/60323df295aa610015b59f66 --stackbit-api-key=STACKBIT_API_KEY
 
-***REMOVED***
+# build site
+yarn run build
 
-***REMOVED***
-***REMOVED***
-
-***REMOVED***
-***REMOVED***
-
-***REMOVED***
+echo "stackbit-build.sh: finished build"
