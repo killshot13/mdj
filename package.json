@@ -51,7 +51,7 @@
 		"react-script-tag": "^1.1.2",
 		"rehype-react": "^3.0.2",
 		"sprintf-js": "^1.1.2",
-		"typescript": "^4.2.3",
+		"typescript": "^4.6.2",
 		"webpack": "^4.46.0",
 		"yup": "^0.30.0"
 	},
