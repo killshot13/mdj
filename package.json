@@ -27,7 +27,7 @@
 		"documentation": "^13.2.0",
 		"eslint": "^7.32.0",
 		"fs-extra": "^7.0.1",
-		"gatsby": "^4.6.0",
+		"gatsby": "^4.25.4",
 		"gatsby-plugin-react-helmet": "^3.3.3",
 		"gatsby-plugin-remove-fingerprints": "^0.0.2",
 		"gatsby-plugin-sass": "^4.13.0",
